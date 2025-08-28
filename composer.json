@@ -1,0 +1,29 @@
+{
+    "name": "httd1/fcmclient",
+    "description": "A simple FCM client for PHP",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "fcm",
+        "firebase",
+        "push",
+        "notifications",
+        "client"
+    ],
+    "require": {
+        "php": "^8.0",
+        "firebase/php-jwt": "^6.11",
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "FcmClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "J.M",
+            "homepage": "https://github.com/httd1"
+        }
+    ]
+}
