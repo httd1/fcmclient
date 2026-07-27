@@ -13,7 +13,7 @@
     "require": {
         "php": "^8.0",
         "firebase/php-jwt": "^7.1",
-        "guzzlehttp/guzzle": "^7.10"
+        "guzzlehttp/guzzle": "^8.0.1"
     },
     "autoload": {
         "psr-4": {
