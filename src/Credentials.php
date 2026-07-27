@@ -68,7 +68,7 @@ class Credentials
      */
     private $clientX509CertUrl;
 
-    public function __construct($json)
+    public function __construct(string $json)
     {
         // abre json ou dados em array
         if (is_array($json)) {
